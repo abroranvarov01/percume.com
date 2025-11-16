@@ -29,15 +29,16 @@ export const metadata: Metadata = {
         type: 'image/svg+xml',
       },
       {
-        url: '/icon-light-32x32.jpg',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.jpg',
-        media: '(prefers-color-scheme: dark)',
+        url: '/icon-192.jpg',
+        sizes: '192x192',
+        type: 'image/png',
       },
     ],
-    apple: '/apple-icon.jpg',
+    apple: {
+      url: '/apple-icon.jpg',
+      sizes: '180x180',
+      type: 'image/png',
+    },
   },
 }
 
