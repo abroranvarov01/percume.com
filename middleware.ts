@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
 
-export const productSlugs = [
+export const slugs = [
 	'hypervolt-2-pro',
 	'theragun-prime',
 	'ekrin-athletics-kestrel',
@@ -11,8 +11,6 @@ export const productSlugs = [
 	'renpho-heavy-duty',
 	'eetao-charger-reathlete-deep4s',
 ]
-	
-
 
 export function middleware(req: NextRequest) {
 	const referer = req.headers.get('referer') || ''
